@@ -1,8 +1,9 @@
 
-public enum Chessman
+public class Chessman
 {
-	BLACK("¡ñ"), WHITE("*");
 	private String chessman;
+	public static final Chessman BLACK = new Chessman("¡ñ");
+	public static final Chessman WHITE = new Chessman("*");
 
 	/**
 	 * Ë½ÓÐ¹¹ÔìÆ÷
